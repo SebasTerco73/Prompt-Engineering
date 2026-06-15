@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Caña Seca y Un Membrillo — pastelería artesanal con facturas, tortas, cookies, alfajores, budines y medialunas. Pedidos online para familias y eventos.">
+  <meta property="og:title" content="Caña Seca y Un Membrillo | Pastelería Artesanal">
+  <meta property="og:description" content="Dulces artesanales de calidad: facturas, tortas, cookies, alfajores y más. Hacé tu pedido online.">
+  <meta property="og:type" content="website">
+  <title>Caña Seca y Un Membrillo | Pastelería Artesanal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header class="header" id="header" role="banner">
+    <div class="header__inner container">
+      <a href="#hero" class="header__logo" aria-label="Caña Seca y Un Membrillo — Inicio">
+        <span class="header__logo-icon" aria-hidden="true">🥐</span>
+        <span class="header__logo-text">Caña Seca y Un Membrillo</span>
+      </a>
+
+      <nav class="header__nav" id="nav" aria-label="Navegación principal">
+        <ul class="header__menu" role="list">
+          <li><a href="#nosotros" class="header__link">Nosotros</a></li>
+          <li><a href="#productos" class="header__link">Productos</a></li>
+          <li><a href="#testimonios" class="header__link">Testimonios</a></li>
+          <li><a href="#contacto" class="header__link">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <button class="header__burger" id="burger" type="button" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="mobile-panel">
+        <span class="header__burger-line"></span>
+        <span class="header__burger-line"></span>
+        <span class="header__burger-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Panel lateral mobile -->
+  <div class="mobile-overlay" id="mobile-overlay" aria-hidden="true"></div>
+  <aside class="mobile-panel" id="mobile-panel" aria-label="Menú de navegación móvil" aria-hidden="true">
+    <nav>
+      <ul class="mobile-panel__menu" role="list">
+        <li><a href="#nosotros" class="mobile-panel__link">Nosotros</a></li>
+        <li><a href="#productos" class="mobile-panel__link">Productos</a></li>
+        <li><a href="#testimonios" class="mobile-panel__link">Testimonios</a></li>
+        <li><a href="#contacto" class="mobile-panel__link">Contacto</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <main id="main">
+
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="hero" aria-labelledby="hero-title">
+      <div class="hero__bg">
+        <img
+          src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=1920&h=1080&fit=crop&q=80"
+          alt="Mesa de pastelería artesanal con facturas doradas y tortas decoradas"
+          width="1920"
+          height="1080"
+          loading="lazy"
+          class="hero__bg-img"
+        >
+        <div class="hero__overlay"></div>
+      </div>
+      <div class="hero__content container">
+        <h1 class="hero__title" id="hero-title">
+          <span class="hero__title-text">Caña Seca y Un Membrillo</span>
+        </h1>
+        <p class="hero__subtitle">Donde cada mordida cuenta una historia dulce. Artesanal, casero y hecho con amor para vos y tu familia.</p>
+        <a href="#contacto" class="btn btn--primary hero__cta">Haga su pedido</a>
+      </div>
+      <a href="#nosotros" class="hero__scroll" aria-label="Desplazarse hacia abajo">
+        <span class="hero__scroll-text">Descubrir</span>
+        <span class="hero__scroll-arrow" aria-hidden="true"></span>
+      </a>
+    </section>
+
+    <!-- ========== SOBRE NOSOTROS ========== -->
+    <section class="about section" id="nosotros" aria-labelledby="about-title">
+      <div class="container">
+        <header class="section__header reveal">
+          <h2 class="section__title" id="about-title">Sobre Caña Seca y Un Membrillo</h2>
+          <p class="section__subtitle">Más que una pastelería: un rincón de la ciudad donde lo artesanal se siente en cada detalle.</p>
+        </header>
+        <div class="about__grid">
+          <article class="about-card reveal">
+            <span class="about-card__icon" aria-hidden="true">🌱</span>
+            <h3 class="about-card__title">Nuestros inicios</h3>
+            <p class="about-card__text">Nació en una cocina familiar con recetas de la abuela y el sueño de compartir el sabor auténtico de lo hecho a mano, sin atajos ni conservantes.</p>
+          </article>
+          <article class="about-card reveal">
+            <span class="about-card__icon" aria-hidden="true">✨</span>
+            <h3 class="about-card__title">Hoy en día</h3>
+            <p class="about-card__text">Somos un referente local de pastelería artesanal. Cada mañana horneamos desde cero para que disfrutes productos frescos, generosos y llenos de carácter.</p>
+          </article>
+          <article class="about-card reveal">
+            <span class="about-card__icon" aria-hidden="true">💛</span>
+            <h3 class="about-card__title">Lo que queremos para vos</h3>
+            <p class="about-card__text">Queremos que cada visita —o cada pedido online— sea un momento especial: dulce, cálido y memorable, como una tarde de merienda en casa.</p>
+          </article>
+          <article class="about-card reveal">
+            <span class="about-card__icon" aria-hidden="true">🤝</span>
+            <h3 class="about-card__title">Comprometidos con la calidad</h3>
+            <p class="about-card__text">Seleccionamos ingredientes premium, respetamos tiempos de fermentación y controlamos cada etapa del proceso para garantizar excelencia en cada bocado.</p>
+          </article>
+          <article class="about-card reveal">
+            <span class="about-card__icon" aria-hidden="true">🎉</span>
+            <h3 class="about-card__title">Pedidos para eventos</h3>
+            <p class="about-card__text">Cumpleaños, casamientos, empresas o reuniones: armamos mesas dulces y tortas personalizadas con presupuesto a medida y entrega puntual.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PRODUCTOS ========== -->
+    <section class="products section" id="productos" aria-labelledby="products-title">
+      <div class="container">
+        <header class="section__header reveal">
+          <h2 class="section__title" id="products-title">Nuestros productos</h2>
+          <p class="section__subtitle">Elegí entre nuestras especialidades artesanales, horneadas cada día con dedicación.</p>
+        </header>
+        <div class="products__grid">
+
+          <article class="product-card reveal">
+            <div class="product-card__image-wrap">
+              <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=600&h=450&fit=crop&q=80" alt="Medialunas de manteca doradas recién horneadas" width="600" height="450" loading="lazy" class="product-card__img">
+            </div>
+            <div class="product-card__body">
+              <span class="product-card__category">Facturas</span>
+              <h3 class="product-card__name">Medialunas de manteca</h3>
+              <p class="product-card__desc">Hojaldradas, mantecosas y con ese brillo dorado que solo da la mantequilla de verdad.</p>
+            </div>
+          </article>
+
+          <article class="product-card reveal">
+            <div class="product-card__image-wrap">
+              <img src="https://images.unsplash.com/photo-1608198093002-ad4e005484ec?w=600&h=450&fit=crop&q=80" alt="Bandeja surtida de facturas variadas" width="600" height="450" loading="lazy" class="product-card__img">
+            </div>
+            <div class="product-card__body">
+              <span class="product-card__category">Facturas</span>
+              <h3 class="product-card__name">Facturas surtidas x12</h3>
+              <p class="product-card__desc">Cañoncitos, vigilantes, bolas de fraile y más. Ideal para compartir en familia.</p>
+            </div>
+          </article>
+
+          <article class="product-card reveal">
+            <div class="product-card__image-wrap">
+              <img src="https://images.unsplash.com/photo-1524351199678-941a58a3df50?w=600&h=450&fit=crop&q=80" alt="Cheesecake con frutos rojos y salsa de arándanos" width="600" height="450" loading="lazy" class="product-card__img">
+            </div>
+            <div class="product-card__body">
+              <span class="product-card__category">Tortas</span>
+              <h3 class="product-card__name">Cheesecake frutos rojos</h3>
+              <p class="product-card__desc">Base crocante, crema suave y coulis de frutos rojos. Fresca y equilibrada.</p>
+            </div>
+          </article>
+
+          <article class="product-card reveal">
+            <div class="product-card__image-wrap">
+              <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=600&h=450&fit=crop&q=80" alt="Cookies con chips de chocolate sobre tabla de madera" width="600" height="450" loading="lazy" class="product-card__img">
+            </div>
+            <div class="product-card__body">
+              <span class="product-card__category">Cookies</span>
+              <h3 class="product-card__name">Cookies chips de chocolate</h3>
+              <p class="product-card__desc">Bordes crujientes, centro tierno y chips de chocolate belga derretidos por dentro.</p>
+            </div>
+          </article>
+
+          <article class="product-card reveal">
+            <div class="product-card__image-wrap">
+              <img src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=600&h=450&fit=crop&q=80" alt="Cookies red velvet con glaseado blanco" width="600" height="450" loading="lazy" class="product-card__img">
+            </div>
+            <div class="product-card__body">
+              <span class="product-card__category">Cookies</span>
+              <h3 class="product-card__name">Cookies red velvet</h3>
+              <p class="product-card__desc">Suaves, aterciopeladas y con un toque de cacao. Decoradas con glaseado cremoso.</p>
+            </div>
+          </article>
+
+          <article class="product-card reveal">
+            <div class="product-card__image-wrap">
+              <img src="https://images.unsplash.com/photo-1552552492-9c335658343d?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+            </div>
+            <div class="product-card__body">
+              <span class="product-card__category">Alfajores</span>
+              <h3 class="product-card__name">Alfajor de maicena</h3>
+              <p class="product-card__desc">Clásico argentino: tapas desmenuzables, dulce de leche generoso y coco tostado.</p>
+            </div>
+          </article>
+
+          <article class="product-card reveal">
+            <div class="product-card__image-wrap">
+              <img src="https://images.unsplash.com/photo-1607920591413-4ec007e70023?w=600&h=450&fit=crop&q=80" alt="Alfajores bañados en chocolate negro" width="600" height="450" loading="lazy" class="product-card__img">
+            </div>
+            <div class="product-card__body">
+              <span class="product-card__category">Tortas</span>
+              <h3 class="product-card__name">Torta de chocolate</h3>
+              <p class="product-card__desc">Bañada en chocolate semiamargo con relleno de dulce de leche repostero. Irresistible.</p>
+            </div>
+          </article>
+
+          <article class="product-card reveal">
+            <div class="product-card__image-wrap">
+              <img src="https://images.unsplash.com/photo-1517400847543-fd27a32c8d12?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Alfajor triple con capas de dulce de leche" width="600" height="450" loading="lazy" class="product-card__img">
+            </div>
+            <div class="product-card__body">
+              <span class="product-card__category">Alfajores</span>
+              <h3 class="product-card__name">Alfajor triple</h3>
+              <p class="product-card__desc">Tres capas de dulce de leche entre tapas de alfajor artesanal. Para los más dulces.</p>
+            </div>
+          </article>
+
+          <article class="product-card reveal">
+            <div class="product-card__image-wrap">
+              <img src="https://plus.unsplash.com/premium_photo-1716918179087-a59c71249d32?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+            </div>
+            <div class="product-card__body">
+              <span class="product-card__category">Budines</span>
+              <h3 class="product-card__name">Budín de limón</h3>
+              <p class="product-card__desc">Húmedo y aromático, con glaseado cítrico y ralladura fresca. Ideal con un café.</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TESTIMONIOS ========== -->
+    <section class="testimonials section" id="testimonios" aria-labelledby="testimonials-title">
+      <div class="container">
+        <header class="section__header reveal">
+          <h2 class="section__title" id="testimonials-title">Opiniones de nuestros clientes</h2>
+          <p class="section__subtitle">Lo que dicen quienes ya probaron nuestra pastelería artesanal.</p>
+        </header>
+        <div class="testimonials__grid">
+
+          <blockquote class="testimonial-card reveal">
+            <div class="testimonial-card__stars" aria-label="5 de 5 estrellas">
+              <span aria-hidden="true">★★★★★</span>
+            </div>
+            <p class="testimonial-card__text">"Las medialunas de manteca son las mejores del barrio. Crocantes por fuera, suaves por dentro. Las pido todos los sábados sin falta."</p>
+            <footer class="testimonial-card__footer">
+              <cite class="testimonial-card__name">Mariana López</cite>
+              <span class="testimonial-card__role">Vecina del barrio · Cliente frecuente</span>
+            </footer>
+          </blockquote>
+
+          <blockquote class="testimonial-card reveal">
+            <div class="testimonial-card__stars" aria-label="5 de 5 estrellas">
+              <span aria-hidden="true">★★★★★</span>
+            </div>
+            <p class="testimonial-card__text">"El local tiene un aroma increíble y una decoración cálida. Merendar acá es como estar en la cocina de la abuela, pero con estilo."</p>
+            <footer class="testimonial-card__footer">
+              <cite class="testimonial-card__name">Tomás Riera</cite>
+              <span class="testimonial-card__role">Estudiante universitario</span>
+            </footer>
+          </blockquote>
+
+          <blockquote class="testimonial-card reveal">
+            <div class="testimonial-card__stars" aria-label="5 de 5 estrellas">
+              <span aria-hidden="true">★★★★★</span>
+            </div>
+            <p class="testimonial-card__text">"Pedimos la torta Rogel para el cumple de mi hija y nos atendieron con una paciencia increíble. El resultado superó todas las expectativas."</p>
+            <footer class="testimonial-card__footer">
+              <cite class="testimonial-card__name">Carolina Méndez</cite>
+              <span class="testimonial-card__role">Madre de familia · Pedido para evento</span>
+            </footer>
+          </blockquote>
+
+          <blockquote class="testimonial-card reveal">
+            <div class="testimonial-card__stars" aria-label="5 de 5 estrellas">
+              <span aria-hidden="true">★★★★★</span>
+            </div>
+            <p class="testimonial-card__text">"Los alfajores de maicena son un viaje al sabor de la infancia. Se nota que usan ingredientes de primera y mucho cariño en cada uno."</p>
+            <footer class="testimonial-card__footer">
+              <cite class="testimonial-card__name">Diego Fernández</cite>
+              <span class="testimonial-card__role">Amante de los alfajores</span>
+            </footer>
+          </blockquote>
+
+          <blockquote class="testimonial-card reveal">
+            <div class="testimonial-card__stars" aria-label="5 de 5 estrellas">
+              <span aria-hidden="true">★★★★★</span>
+            </div>
+            <p class="testimonial-card__text">"La atención es impecable: siempre te recomiendan según lo que buscás y cumplen los horarios de entrega. Un servicio de diez."</p>
+            <footer class="testimonial-card__footer">
+              <cite class="testimonial-card__name">Lucía Acosta</cite>
+              <span class="testimonial-card__role">Organizadora de eventos corporativos</span>
+            </footer>
+          </blockquote>
+
+          <blockquote class="testimonial-card reveal">
+            <div class="testimonial-card__stars" aria-label="5 de 5 estrellas">
+              <span aria-hidden="true">★★★★★</span>
+            </div>
+            <p class="testimonial-card__text">"Las cookies de chocolate son adictivas y el budín de limón es el más húmedo que probé. El ambiente del local invita a quedarse horas."</p>
+            <footer class="testimonial-card__footer">
+              <cite class="testimonial-card__name">Valentina Ruiz</cite>
+              <span class="testimonial-card__role">Foodie · Reseñadora local</span>
+            </footer>
+          </blockquote>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACTO ========== -->
+    <section class="contact section" id="contacto" aria-labelledby="contact-title">
+      <div class="container">
+        <header class="section__header reveal">
+          <h2 class="section__title" id="contact-title">Hacenos tu pedido</h2>
+          <p class="section__subtitle">Te hacemos un presupuesto especial para fiestas 🎉</p>
+        </header>
+
+        <form class="contact-form reveal" id="contact-form" novalidate aria-label="Formulario de pedido">
+          <div class="form-group">
+            <label for="nombre" class="form-label">Nombre <span class="form-required" aria-hidden="true">*</span></label>
+            <input type="text" id="nombre" name="nombre" class="form-input" required autocomplete="name" aria-required="true" aria-describedby="error-nombre">
+            <span class="form-error" id="error-nombre" role="alert"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="telefono" class="form-label">Teléfono <span class="form-required" aria-hidden="true">*</span></label>
+            <input type="tel" id="telefono" name="telefono" class="form-input" required autocomplete="tel" aria-required="true" aria-describedby="error-telefono">
+            <span class="form-error" id="error-telefono" role="alert"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="correo" class="form-label">Correo electrónico <span class="form-required" aria-hidden="true">*</span></label>
+            <input type="email" id="correo" name="correo" class="form-input" required autocomplete="email" aria-required="true" aria-describedby="error-correo">
+            <span class="form-error" id="error-correo" role="alert"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="mensaje" class="form-label">Mensaje <span class="form-required" aria-hidden="true">*</span></label>
+            <textarea id="mensaje" name="mensaje" class="form-input form-textarea" rows="5" required aria-required="true" aria-describedby="error-mensaje"></textarea>
+            <span class="form-error" id="error-mensaje" role="alert"></span>
+          </div>
+
+          <button type="submit" class="btn btn--primary form-submit" id="form-submit">Enviar consulta</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== MODAL ÉXITO ========== -->
+  <div class="modal" id="success-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-describedby="modal-message" hidden>
+    <div class="modal__overlay" id="modal-overlay" aria-hidden="true"></div>
+    <div class="modal__content">
+      <h2 class="modal__title" id="modal-title">Consulta enviada</h2>
+      <p class="modal__message" id="modal-message">Mensaje recibido, lo contactaremos a la brevedad.</p>
+      <button type="button" class="btn btn--primary modal__btn" id="modal-accept">Aceptar</button>
+    </div>
+  </div>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="footer__logo" aria-hidden="true">🥐</span>
+        <span class="footer__name">Caña Seca y Un Membrillo</span>
+      </div>
+      <div class="footer__social">
+        <a href="https://www.instagram.com/" class="footer__social-link" target="_blank" rel="noopener noreferrer" aria-label="Seguinos en Instagram">
+          <svg class="footer__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" width="24" height="24">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+          </svg>
+        </a>
+        <a href="https://www.facebook.com/" class="footer__social-link" target="_blank" rel="noopener noreferrer" aria-label="Seguinos en Facebook">
+          <svg class="footer__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" width="24" height="24">
+            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+          </svg>
+        </a>
+      </div>
+      <p class="footer__copy">&copy; 2026 Caña Seca y Un Membrillo. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- ========== WHATSAPP FLOTANTE ========== -->
+  <a href="https://wa.me/5491112345678" class="whatsapp-btn" target="_blank" rel="noopener noreferrer" aria-label="Contactanos por WhatsApp">
+    <svg class="whatsapp-btn__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" width="28" height="28">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
