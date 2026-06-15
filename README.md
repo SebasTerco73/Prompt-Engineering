@@ -197,6 +197,14 @@ Mostrar cada archivo en un bloque de código independiente.
 |---------|--------|
 |index|<img width="995" height="624" alt="image" src="https://github.com/user-attachments/assets/00f5b38b-8f53-483e-8ca2-25ca25c5965e" />|
 
+| Sección | Cursor - Composer 2.5 Fast | OpenCode - DeepSeek V4 Flash Free |
+|---------|--------|----------|
+|Header + Hero Section|<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/673e3499-1059-4940-930a-ea1a218ef015" />|<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/40b4c527-186f-4288-a648-882ccaf62d02" />|
+|Descripción|<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/02203872-5ded-40d6-ba28-f1309df98051" />|<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/97e17dcd-540a-4866-90af-d0cd457a2841" />
+|Productos|<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/2f285f8b-c552-446d-a1c3-b59d105d99ac" />|<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/2bf64800-137f-4593-b88f-9704ea3317a6" />|
+|Reseñas|<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/ebf3fd96-719b-4888-855f-0ae8d27ecc82" />|<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/2ca0e069-b783-493c-892c-27e59d8a5776" />|
+|Formulario|<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/66afbef1-54f4-4010-bffd-8feac4cc91c9" />|<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/eb1485b6-d684-451f-9c84-07f3d6f79242" />|
+|Footer|<img width="1366" height="251" alt="image" src="https://github.com/user-attachments/assets/1c92af78-8c14-4ea1-ad7b-4fdd9bc2991b" />|<img width="1366" height="243" alt="image" src="https://github.com/user-attachments/assets/72bcbec9-6ac3-43eb-8980-d7760f33d165" />|
 
 ## 👋​ Autor
 
